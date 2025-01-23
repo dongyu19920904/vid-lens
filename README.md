@@ -15,27 +15,38 @@ Vid-Lens是一个开源的AI视频提示词教程项目，旨在帮助创作者�
 
 ## 📚 课程目录
 
-1. [Day1：认识结构化 - 告别"抽卡式生成"](./lessons/day1-basics.md)
-2. [Day2：环境设定三板斧](./lessons/day2-environment.md)
-3. [Day3：角色控制入门](./lessons/day3-character.md)
-4. [Day4：镜头语言基础](./lessons/day4-camera.md)
-5. [Day5：动态元素控制](./lessons/day5-dynamics.md)
-6. [Day6：时间轴管理](./lessons/day6-timeline.md)
-7. [Day7：多元素交互](./lessons/day7-interaction.md)
-8. [Day8：风格融合术](./lessons/day8-style.md)
-9. [Day9：异常处理](./lessons/day9-troubleshooting.md)
-10. [Day10：完整项目实战](./lessons/day10-project.md)
+1. [新手入门：三步学会结构化提示词](./lessons/新手入门：三步学会结构化提示词.md)
+2. [课程体系概览](./lessons/课程体系概览.md)
+
+### 每日课程
+1. [第1天：认识结构化提示词](./lessons/第1天：认识结构化提示词.md)
+2. [第2天：环境设定三板斧](./lessons/第2天：环境设定三板斧.md)
+3. [第3天：角色控制入门](./lessons/第3天：角色控制入门.md)
+4. [第4天：镜头语言基础](./lessons/第4天：镜头语言基础.md)
+5. [第5天：动态元素控制](./lessons/第5天：动态元素控制.md)
+6. [第6天：时间轴管理](./lessons/第6天：时间轴管理.md)
+7. [第7天：多元素交互](./lessons/第7天：多元素交互.md)
+8. [第8天：风格融合术](./lessons/第8天：风格融合术.md)
+9. [第9天：异常处理](./lessons/第9天：异常处理.md)
+10. [第10天：完整项目实战](./lessons/第10天：完整项目实战.md)
 
 ## 🚀 快速开始
 
 1. 克隆项目
 ```bash
-git clone https://github.com/your-username/vid-lens.git
+git clone https://github.com/yourusername/vid-lens.git
+cd vid-lens
 ```
 
 2. 按顺序学习课程内容
-3. 完成每日练习任务
-4. 在Issues中分享你的作品和经验
+- 从新手入门开始，循序渐进
+- 每节课都包含理论知识和实践任务
+- 建议完成每节课的练习任务
+
+3. 实践与分享
+- 在 [Discussions](https://github.com/yourusername/vid-lens/discussions) 分享你的作品
+- 在 [Issues](https://github.com/yourusername/vid-lens/issues) 提出问题和建议
+- 参与社区讨论，交流经验
 
 ## 💡 使用指南
 
@@ -65,9 +76,8 @@ git clone https://github.com/your-username/vid-lens.git
 
 ## 📮 联系方式
 
-- 项目讨论：GitHub Discussions
-- 问题反馈：GitHub Issues
-- 邮件联系：your-email@example.com
+- 项目讨论：[GitHub Discussions](https://github.com/yourusername/vid-lens/discussions)
+- 问题反馈：[GitHub Issues](https://github.com/yourusername/vid-lens/issues)
 
 ---
 
