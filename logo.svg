@@ -1,0 +1,39 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景渐变 -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a237e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0288d1;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 光效渐变 -->
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00e5ff;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#00e5ff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- 主圆形背景 -->
+  <circle cx="256" cy="256" r="240" fill="url(#bgGradient)" />
+  
+  <!-- 发光效果 -->
+  <circle cx="256" cy="256" r="250" fill="url(#glowGradient)" />
+  
+  <!-- 镜头光圈 -->
+  <circle cx="256" cy="256" r="200" fill="none" 
+    stroke="#ffffff" stroke-width="8" 
+    stroke-dasharray="30,10" />
+    
+  <!-- 内部代码线条 -->
+  <g transform="translate(256,256)" stroke="#ffffff" stroke-width="4">
+    <line x1="-100" y1="-60" x2="100" y2="-60" opacity="0.8" />
+    <line x1="-80" y1="-20" x2="80" y2="-20" opacity="0.6" />
+    <line x1="-90" y1="20" x2="90" y2="20" opacity="0.7" />
+    <line x1="-70" y1="60" x2="70" y2="60" opacity="0.5" />
+  </g>
+  
+  <!-- 中心光点 -->
+  <circle cx="256" cy="256" r="15" fill="#00e5ff">
+    <animate attributeName="r" values="15;20;15" dur="2s" repeatCount="indefinite" />
+  </circle>
+</svg> 
